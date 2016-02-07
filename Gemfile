@@ -6,7 +6,7 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem "twitter-bootstrap-rails"
 gem 'pg', '~> 0.18.4'
 
-
+gem 'rails_12factor', group: :production
 gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
 gem 'simple_form'
 

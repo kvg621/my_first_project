@@ -24,6 +24,11 @@ development:
 #  <<: *default
 #  database: db/test.sqlite3
 #
-#production:
+production:
 #  <<: *default
-#  database: db/production.sqlite3
+  adapter: postgresql
+  encoding: utf-8
+  database: ddo43fd2j5h1sj
+  host: ec2-54-83-46-91.compute-1.amazonaws.com
+  username: glzgqnahrjhvyo
+  password: bTQkN5rjdO68YD1rVqUfMBRooB
