@@ -1,0 +1,23 @@
+<h1>Все страницы</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Наименование</th>
+    <th>Описание</th>
+  </tr>
+  </thead>
+  <% @pages.each do |page| %>
+      <tr>
+        <td><%= page.name %></td>
+        <td><%= page.desription %></td>
+      </tr>
+  <% end %>
+</table>
+
+
+
+
+
+
+
